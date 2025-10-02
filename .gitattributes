@@ -1,0 +1,4 @@
+echo "*.dart linguist-detectable=true" >> .gitattributes
+echo "android/* linguist-detectable=false" >> .gitattributes
+echo "ios/* linguist-detectable=false" >> .gitattributes
+echo "build/* linguist-detectable=false" >> .gitattributes
